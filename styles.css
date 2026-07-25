@@ -1,12 +1,12 @@
 :root {
-  color-scheme: dark;
-  --bg: #0a0710;
-  --surface: #15101d;
-  --surface-2: #1d1628;
-  --text: #f6f1fb;
-  --muted: #b9afc4;
-  --gold: #d7bb72;
-  --border: #332a3e;
+  color-scheme: light;
+  --bg: #f3f0e8;
+  --surface: #fcfbf7;
+  --surface-2: #e1e9e3;
+  --text: #1c2923;
+  --muted: #526058;
+  --accent: #49695a;
+  --border: rgba(36, 60, 49, 0.18);
   --max: 780px;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 a {
-  color: var(--gold);
+  color: var(--accent);
 }
 
 .shell {
@@ -38,7 +38,7 @@ a {
 
 .brand {
   margin: 0 0 40px;
-  color: var(--gold);
+  color: var(--accent);
   font-size: 0.82rem;
   font-family: system-ui, sans-serif;
   font-weight: 700;
@@ -60,7 +60,7 @@ h1 {
 
 h2 {
   margin: 2.5rem 0 0.65rem;
-  color: var(--gold);
+  color: var(--accent);
   font-size: 1.35rem;
 }
 
@@ -107,9 +107,9 @@ li {
 
 .button {
   margin-top: 12px;
-  border-color: var(--gold);
-  background: var(--gold);
-  color: #17110a;
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #f8f5ed;
   font-family: system-ui, sans-serif;
   font-weight: 700;
 }
@@ -131,7 +131,7 @@ li {
 }
 
 .notice {
-  border-left: 3px solid var(--gold);
+  border-left: 3px solid var(--accent);
   padding: 14px 18px;
   background: var(--surface-2);
 }
